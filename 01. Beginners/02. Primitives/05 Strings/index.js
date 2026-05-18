@@ -16,6 +16,7 @@ let fullName = favActorFirstName + " " + favActorLastName;
 let uppercase = fullName.toUpperCase();
 // 5. Create a variable name (message) & store the template
 let message = `My favorite Actor Is ${uppercase} and he is a legendary Filipino comedian.`;
+// 6. Now append this message to the (message variable) `He is also a great actor and a TV host.`.
 message += " He is also a great actor and a TV host.";
-// 6. Log the message variable
+// 7. Log the message variable
 console.log(message);
